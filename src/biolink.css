@@ -379,3 +379,77 @@ ul.social li:hover{
     border-radius:1.8em;
     font: normal 100%/2.1 "Lucida Grande", Tahoma, sans-serif;
 }
+
+.sponsor {
+  position: absolute;
+  top: -6.1px;
+  right: 10px;
+}
+.sponsor:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 53px solid transparent;
+  border-right: 53px solid transparent;
+  border-top: 10px solid #F8463F;
+}
+.sponsor span {
+  position: relative;
+  display: block;
+  text-align: center;
+  background: #F8463F;
+  font-size: 14px;
+  line-height: 1;
+  padding: 12px 8px 10px;
+  border-top-right-radius: 8px;
+  width: 90px;
+}
+.sponsor span:before, .sponsor span:after {
+  position: absolute;
+  content: "";
+}
+.sponsor span:before {
+ height: 6px;
+ width: 6px;
+ left: -6px;
+ top: 0;
+ background: #F8463F;
+}
+.sponsor span:after {
+ height: 6px;
+ width: 8px;
+ left: -8px;
+ top: 0;
+ border-radius: 8px 8px 0 0;
+ background: #C02031;
+}
+
+.new {
+  position: absolute;
+  top: 15px;
+  padding: 8px 10px;
+  background: #00B3ED;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+}
+.new:before, .new:after {
+  content: "";
+  position: absolute;
+}
+.new:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.new:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: lightblue;
+  border-radius: 5px 0 0 5px;
+ }
