@@ -314,7 +314,7 @@ ul.social li:hover{
     word-break:break-word 
 }
 .bioLink-shadow{
-    border-radius:30px;
+    border-radius:8px;
     box-shadow:0 6px 14px -6px rgb(24 39 75 / 12%),0px 10px 32px -4px rgb(24 39 75 / 10%),inset 0 0 2px 1px rgb(24 39 75 / 5%);
     box-sizing:border-box;
     position:absolute;
