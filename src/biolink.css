@@ -292,7 +292,7 @@ ul.social li:hover{
     transform:translate3d(0px,0px,0px) scale(1.015) 
 }
 .bioLink-item{
-    border-radius:30px;
+    border-radius:8px;
     position:relative;
     margin:16px 0;
     transition:transform .15s cubic-bezier(.17,.67,.29,2.71) 0s 
