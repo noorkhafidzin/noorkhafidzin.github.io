@@ -382,7 +382,8 @@ ul.social li:hover{
 
 .new {
   --f: 15px; /* control the folded part*/
-  
+  color: white;
+  font-size: small;
   position: absolute;
   top: 0;
   right: 0;
@@ -396,9 +397,9 @@ ul.social li:hover{
 }
 
 @keyframes blinkingBackground{
-		0%		{ background-color: #10c018;}
-		25%		{ background-color: #1056c0;}
-		50%		{ background-color: #ef0a1a;}
-		75%		{ background-color: #254878;}
-		100%	        { background-color: #04a1d5;}
-	}
+  0%		{ background-color: #10c018;}
+  25%		{ background-color: #1056c0;}
+  50%		{ background-color: #ef0a1a;}
+  75%		{ background-color: #254878;}
+  100%	        { background-color: #04a1d5;}
+}
