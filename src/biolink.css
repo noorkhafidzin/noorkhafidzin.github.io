@@ -387,10 +387,18 @@ ul.social li:hover{
   top: 0;
   right: 0;
   padding: .1em 1.8em;
-  background: #BD1550; /* the main color  */
+  animation: blinkingBackground 2s infinite;
+  color: white;
   border-bottom :var(--f) solid #0007;
   clip-path: polygon(
     100% calc(100% - var(--f)),100% 100%,calc(100% - var(--f)) calc(100% - var(--f)),var(--f) calc(100% - var(--f)), 0 100%,0 calc(100% - var(--f)),999px calc(100% - var(--f) - 999px),calc(100% - 999px) calc(100% - var(--f) - 999px));
   transform: translate(calc((1 - cos(45deg))*100%), -100%) rotate(45deg);
   transform-origin: 0% 100%;
 }
+@keyframes blinkingBackground{
+		0%		{ background-color: #10c018;}
+		25%		{ background-color: #1056c0;}
+		50%		{ background-color: #ef0a1a;}
+		75%		{ background-color: #254878;}
+		100%	        { background-color: #04a1d5;}
+	}
